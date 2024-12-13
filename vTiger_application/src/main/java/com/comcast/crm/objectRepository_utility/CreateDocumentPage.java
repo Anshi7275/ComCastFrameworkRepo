@@ -21,5 +21,4 @@ public class CreateDocumentPage {
 	public WebElement getTitleTextBox() {
 		return titleTextBox;
 	}
-
 }
