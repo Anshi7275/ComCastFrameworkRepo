@@ -22,6 +22,10 @@ public class HomePage {
 		PageFactory.initElements(driver, this);  
 	}
 	
+	public WebDriver getDriver() {
+		return driver;
+	}
+	
 	//organization link
 	@FindBy(xpath = "//a[text()='Organizations']")
 	private WebElement organization;
@@ -63,6 +67,14 @@ public class HomePage {
 		return troubletktlnk;
 	}
 	
+	//document link
+	@FindBy(linkText = "Documents")
+	private WebElement documentlnk;
+	
+	public WebElement getDocumentlnk() {
+		return documentlnk;
+	}
+
 	//more link
 	@FindBy(xpath = "//a[text()='More']")
 	private WebElement morelnk;
