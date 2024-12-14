@@ -23,4 +23,12 @@ public class CreateDocumentPage {
 	public WebElement getTitleTextBox() {
 		return titleTextBox;
 	}
+	
+	@FindBy(xpath = "//input[@title=\"Save [Alt+S]\"]")
+	private WebElement savebtn;
+	
+	public WebElement getSavebtn() {
+		return savebtn;
+	}
+	
 }

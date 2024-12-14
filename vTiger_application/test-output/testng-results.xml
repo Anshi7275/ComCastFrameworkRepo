@@ -1,49 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T09:38:39 IST" name="Default suite" finished-at="2024-12-12T09:41:19 IST" duration-ms="160359">
+  <suite started-at="2024-12-13T21:44:07 IST" name="Default suite" finished-at="2024-12-13T21:46:02 IST" duration-ms="114932">
     <groups>
     </groups>
-    <test started-at="2024-12-12T09:38:39 IST" name="Default test" finished-at="2024-12-12T09:41:19 IST" duration-ms="160359">
+    <test started-at="2024-12-13T21:44:07 IST" name="Default test" finished-at="2024-12-13T21:46:02 IST" duration-ms="114932">
       <class name="com.crmVTiger.moduleTest.CreateProductTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:38:38 IST" name="configBS" finished-at="2024-12-12T09:38:39 IST" duration-ms="1339" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@5afa3c9]" started-at="2024-12-13T21:44:07 IST" name="configBS" finished-at="2024-12-13T21:44:07 IST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:38:39 IST" name="configBC" finished-at="2024-12-12T09:39:18 IST" duration-ms="38733" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@5afa3c9]" started-at="2024-12-13T21:44:07 IST" name="configBC" finished-at="2024-12-13T21:44:52 IST" duration-ms="44905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:39:18 IST" name="configBM" finished-at="2024-12-12T09:39:53 IST" duration-ms="35714" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@5afa3c9]" started-at="2024-12-13T21:44:52 IST" name="configBM" finished-at="2024-12-13T21:45:27 IST" duration-ms="34634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createProductWithPortnoTest()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:39:53 IST" name="createProductWithPortnoTest" finished-at="2024-12-12T09:40:30 IST" duration-ms="36978" status="PASS">
+        <test-method signature="createProductWithCatogryTest()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@5afa3c9]" started-at="2024-12-13T21:45:27 IST" name="createProductWithCatogryTest" finished-at="2024-12-13T21:45:55 IST" duration-ms="28271" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createProductWithPortnoTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:40:30 IST" name="configAM" finished-at="2024-12-12T09:40:35 IST" duration-ms="4521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:40:35 IST" name="configBM" finished-at="2024-12-12T09:40:39 IST" duration-ms="3757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createProductWithVendorNameTest()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:40:39 IST" name="createProductWithVendorNameTest" finished-at="2024-12-12T09:41:09 IST" duration-ms="30610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createProductWithVendorNameTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:41:09 IST" name="configAM" finished-at="2024-12-12T09:41:12 IST" duration-ms="2973" status="PASS">
+        </test-method> <!-- createProductWithCatogryTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@5afa3c9]" started-at="2024-12-13T21:45:55 IST" name="configAM" finished-at="2024-12-13T21:45:59 IST" duration-ms="3961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:41:12 IST" name="configAC" finished-at="2024-12-12T09:41:19 IST" duration-ms="6898" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@5afa3c9]" started-at="2024-12-13T21:45:59 IST" name="configAC" finished-at="2024-12-13T21:46:02 IST" duration-ms="3064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@3ba987b8]" started-at="2024-12-12T09:41:20 IST" name="configAS" finished-at="2024-12-12T09:41:20 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crmVTiger.moduleTest.CreateProductTest@5afa3c9]" started-at="2024-12-13T21:46:02 IST" name="configAS" finished-at="2024-12-13T21:46:02 IST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
