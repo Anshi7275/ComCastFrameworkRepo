@@ -16,5 +16,22 @@ public class DocumentInfoPage {
 	
 	@FindBy(xpath = "//span[@id=\"dtlview_Title\"]")
 	private WebElement titletxtfeild;
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public WebElement getTitletxtfeild() {
+		return titletxtfeild;
+	}
+
+	public void setTitletxtfeild(WebElement titletxtfeild) {
+		this.titletxtfeild = titletxtfeild;
+	}
+	
+	
 
 }
