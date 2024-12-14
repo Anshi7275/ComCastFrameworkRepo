@@ -92,7 +92,7 @@ public class CreateProductTest extends BaseClass {
 		CreateProductPage cp = new CreateProductPage(driver);
 		cp.getProductnametxt().sendKeys(productName);
 
-		jlib.wait(1000);
+		//jlib.wait(1000);
 
 		WebElement catogryDD = cp.getCatorgyDropDown();
 		wlib.selectByValue(catogryDD, "Hardware");
