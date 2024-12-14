@@ -5,6 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * @author anshika
+ *contains document page elements which contains title,documents no,folder, description box etc.
+ */
 public class CreateDocumentPage {
 	WebDriver driver;
 	public CreateDocumentPage(WebDriver driver)
@@ -23,4 +27,13 @@ public class CreateDocumentPage {
 	public WebElement getTitleTextBox() {
 		return titleTextBox;
 	}
+	
+	@FindBy(xpath = "//input[@title=\"Save [Alt+S]\"]")
+	private WebElement savebtn;
+	
+	public WebElement getSavebtn() {
+		return savebtn;
+	}
+	
+	
 }
